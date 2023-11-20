@@ -13,8 +13,9 @@
 </head>
 <body>
     <div id="app">
+        <h1>VUE.JS</h1>
         <div class="box">
-            <h1>{{titolo}}</h1>
+            <h2>{{titolo}}</h2>
             <input type="text" v-model="titolo" placeholder="scegli tu il titolo dell'esercizio!">
             <div v-for="(mail, index) in emails">
                 {{emails[index]}}

@@ -1,7 +1,11 @@
 body{background-color: gray;}
 input{width: 200px;}
+h1{
+    margin: auto;
+}
 .box{
     margin: auto;
+    color: black;
     background-color: bisque;
     width: 600px;
     height: 600px;
