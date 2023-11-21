@@ -15,8 +15,9 @@
     <div id="app">
         <h1>VUE.JS</h1>
         <div class="box">
-            <h2>{{titolo}}</h2>
-            <input type="text" v-model="titolo" placeholder="scegli tu il titolo dell'esercizio!">
+            <h2 class="[((2+2)==4) ? activeClass]">{{titolo}}</h2>
+            <input type="text" v-model="titolo" placeholder="il titolo dell'esercizio lo scegli tu!">
+            <button @click="genera()">genera</button>
             <div v-for="(mail, index) in emails">
                 {{emails[index]}}
             </div>
